@@ -1,7 +1,7 @@
 resource "aws_instance" "web" {
-  ami           = "ami-0f8ca728008ff5af4"
+  ami           = "ami-0557a15b87f6559cf"
   instance_type = "t2.micro"
-  availability_zone = "ap-south-1"
+  availability_zone = "us-east-1a"
   tags = {
     Name = "HelloWorld-dev"
   }
